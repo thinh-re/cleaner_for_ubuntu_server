@@ -16,6 +16,13 @@ conda clean -a
 
 ## Clean Docker
 
+This will remove:
+
+- all stopped containers
+- all networks not used by at least one container
+- all images without at least one container associated to them
+- all build cache
+
 ```Shell
 sudo docker system prune -a
 ```

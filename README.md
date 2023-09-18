@@ -26,3 +26,9 @@ This will remove:
 ```Shell
 sudo docker system prune -a
 ```
+
+## Clean NPM's cache
+
+```Shell
+npm cache clean --force 
+```
